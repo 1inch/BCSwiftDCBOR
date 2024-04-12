@@ -1,5 +1,5 @@
 import Foundation
-import SortedCollections
+// import SortedCollections
 
 /// A CBOR map.
 ///

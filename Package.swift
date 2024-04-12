@@ -15,7 +15,7 @@ let package = Package(
             targets: ["DCBOR"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/wolfmcnally/swift-collections", from: "1.1.0"),
+        .package(url: "https://github.com/apple/swift-collections.git", from: "1.1.0"),
         .package(url: "https://github.com/wolfmcnally/WolfBase", from: "6.0.0"),
         .package(url: "https://github.com/blockchaincommons/BCSwiftFloat16", from: "1.0.0"),
         .package(url: "https://github.com/BlockchainCommons/BCSwiftTags", from: "0.1.0"),
